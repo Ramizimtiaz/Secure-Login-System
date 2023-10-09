@@ -1,12 +1,8 @@
 
-
-import javax.swing.*;
+import javax.swing.*;    // login for the password/username maker
 import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-
-
-
 import java.awt.event.ActionListener;
 
 public class UI {

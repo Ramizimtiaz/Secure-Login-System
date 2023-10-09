@@ -1,4 +1,4 @@
-import javax.swing.*;
+import javax.swing.*;    // UI for the login screen
 import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
