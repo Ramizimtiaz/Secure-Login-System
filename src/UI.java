@@ -1,5 +1,5 @@
 
-import javax.swing.*;    // login for the password/username maker
+import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -19,7 +19,7 @@ public class UI {
     public UI(){
         SwingUtilities.invokeLater(() -> {
 
-             f = new JFrame(); // Creating an instance of JFrame
+            f = new JFrame(); // Creating an instance of JFrame
             f.setSize(400, 500); // Setting the frame's size (400 width and 500 height)
             f.setLayout(null); // Using no layout managerJ
 
@@ -80,12 +80,12 @@ public class UI {
                 public void actionPerformed(ActionEvent e) {
 
 
-                       String PasswordText = new String(password.getPassword());
-                        viewpassword.setVisible(true);
-                        password.setVisible(false);
-                        viewpassword.setText(PasswordText);
-                        view.setVisible(false);
-                        hide.setVisible(true);
+                    String PasswordText = new String(password.getPassword());
+                    viewpassword.setVisible(true);
+                    password.setVisible(false);
+                    viewpassword.setText(PasswordText);
+                    view.setVisible(false);
+                    hide.setVisible(true);
 
 
                 }
@@ -123,10 +123,10 @@ public class UI {
             submit.addActionListener(new ActionListener() {
 
                 public void actionPerformed(ActionEvent e) {
-                   if(input != null){
-                       input.actionPerformed(e);
+                    if(input != null){
+                        input.actionPerformed(e);
 
-                   }
+                    }
 
                 }
             });
@@ -174,5 +174,3 @@ public class UI {
         this.ui2 = ui2;
     }
 }
-
-
